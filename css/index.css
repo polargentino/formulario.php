@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: red;
+    background-color: aqua;
+}
+.form{
+    width: auto;
+    height: auto;
+    
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    color: red;
+}

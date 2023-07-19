@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE PRUEBA</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+   
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+
+<body>
+  <h1>FORMULARIO DE CONSULTA Y/O COMENTARIO</h1>
+   <form action="form.php" method="POST" class="form">
+    <div class="form">
+      <label for="name">Nombre</label>
+      <input id="name" name="name" type="text" placeholder="Su nombre completo" required/>
+    </div>
+
+    <div class="form">
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="Escriba aquí su email." required />
+    </div>
+
+    <fieldset class="legacy">
+      <legend>Tipo de mensaje</legend>
+       <input id="talk-1" name="talk-1" type="radio" value="Consulta" />
+       <label for="talk-1" class="radio-label">Consulta</label>
+
+       <input id="talk-2" name="talk-2" type="radio" value="Comentario" />
+       <label for="talk-2" class="radio-label">Comentario</label>
+    </fieldset>
+
+    <div class="form">
+      <label for="abstract">Abstracto</label>
+      <textarea id="abstract" name="textarea"></textarea>
+      <div class="instructions">Describe tu problema y deja tu whapp</div>
+    </div>
+
+    <div class="form">
+      <button>Enviar</button>
+    </div>
+
+   </form>
+    </body>
+  </html>
+  
