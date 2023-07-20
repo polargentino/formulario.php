@@ -2,7 +2,7 @@
 $nombre = $_POST['name'];
 $mail = $_POST['email'];
 $mensaje = $_POST['textarea'];
-
+$para = $_POST['pablitu2010@live.com.ar'];
 //como va a llegar el cuerpo del mail a mi correo
 $mensaje = 'Este mensaje fue enviado por'. $nombre . ",\r\n";
 $mensaje.="Su e-mail es: " . $mail . "\r\n";
